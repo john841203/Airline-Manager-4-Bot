@@ -1,4 +1,4 @@
-# Airline-Manager-4-Bot
+# Airline-Manager-4-Bot 
 
 This repository contains a bot for Airline Manager 4, built with Playwright and scheduled to run on GitHub Actions. The bot is designed to run every hour at 01 and 31 minutes but the schedule can be changed according to preference.
 ## Features
