@@ -33,11 +33,11 @@ test('All Operations', async ({ page }) => {
   // End //
 
   // Campaign Operations //
-  await page.locator('div:nth-child(5) > #mapMaint > img').click();
-  await campaignUtils.createCampaign();
+  //await page.locator('div:nth-child(5) > #mapMaint > img').click();
+  //await campaignUtils.createCampaign();
 
-  await page.locator('#popup > .modal-dialog > .modal-content > .modal-header > div > .glyphicons').click();
-  await GeneralUtils.sleep(1000)
+  //await page.locator('#popup > .modal-dialog > .modal-content > .modal-header > div > .glyphicons').click();
+  //await GeneralUtils.sleep(1000)
   // End //
 
   // Repair Planes if needed //
@@ -52,10 +52,10 @@ test('All Operations', async ({ page }) => {
   // End //
 
   // Depart Planes Operations //
-  await page.locator('#mapRoutes').getByRole('img').click();
-  await GeneralUtils.sleep(2500);
+  //await page.locator('#mapRoutes').getByRole('img').click();
+  //await GeneralUtils.sleep(2500);
 
-  await fleetUtils.departPlanes();
+  //await fleetUtils.departPlanes();
   // End //
 
   page.close();
